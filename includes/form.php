@@ -7,15 +7,25 @@
                 <form action="" method="POST">
                     <div class="mb-3">
                         <label for="titulo" class="form-label">Título</label>
-                        <input type="email" class="form-control" id="titulo" name="titulo">
+                        <input type="text" class="form-control" id="titulo" name="titulo">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Descrição</label>
                         <textarea class="form-control" id="descricao" name="descricao" rows="3"></textarea>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Previsão de Entrega</label>
-                        <input id="previsao_entrega" type="date" class="form-control" id="previsao_entrega">
+                        <label for="previsao_entrega" class="form-label">Previsão de Entrega</label>
+                        <input id="previsao_entrega" type="date" class="form-control" id="previsao_entrega" name="previsao_entrega">
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-check form-check form-check-inline">
+                            <input id="status" class="form-check-input" type="radio" name="status" value="0" checked>
+                            <label for="status" class="form-check-label">Pendente</label>
+                        </div>
+                        <div class="form-check form-check form-check-inline">
+                            <input id="status" class="form-check-input" type="radio" name="status" value="1">
+                            <label for="status" class="form-check-label">Concluída</label>
+                        </div>
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="continuar" name="continuar">

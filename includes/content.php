@@ -1,3 +1,12 @@
+<?php
+if (isset($_GET['message'])) {    
+?>
+    <div class="alert alert-success" role="alert">
+        Entrega inserida com sucesso!
+    </div>
+<?php
+}
+?>
 <main class="flex-shrink-0">
     <div class="container">
         <h1 class="mt-5">Listagem de Entregas</h1>
@@ -21,7 +30,7 @@
                             <th scope="row">1</th>
                             <td>Mark</td>
                             <td>Otto</td>
-                            <td><?php echo date('d/m/Y');?></td>
+                            <td><?php echo date('d/m/Y'); ?></td>
                             <td>@mdo</td>
                             <td>
                                 <ul class="list-inline">
@@ -40,7 +49,7 @@
                             <th scope="row">1</th>
                             <td>Mark</td>
                             <td>Otto</td>
-                            <td><?php echo date('d/m/Y', strtotime("+2 days"));?></td>
+                            <td><?php echo date('d/m/Y', strtotime("+2 days")); ?></td>
                             <td>@mdo</td>
                             <td>
                                 <ul class="list-inline">
@@ -59,7 +68,7 @@
                             <th scope="row">1</th>
                             <td>Mark</td>
                             <td>Otto</td>
-                            <td><?php echo date('d/m/Y');?></td>
+                            <td><?php echo date('d/m/Y'); ?></td>
                             <td>@mdo</td>
                             <td>
                                 <ul class="list-inline">
@@ -78,7 +87,7 @@
                             <th scope="row">1</th>
                             <td>Mark</td>
                             <td>Otto</td>
-                            <td><?php echo date('d/m/Y', strtotime("+3 days"));?></td>
+                            <td><?php echo date('d/m/Y', strtotime("+3 days")); ?></td>
                             <td>@mdo</td>
                             <td>
                                 <ul class="list-inline">
@@ -97,7 +106,7 @@
                             <th scope="row">1</th>
                             <td>Mark</td>
                             <td>Otto</td>
-                            <td><?php echo date('d/m/Y', strtotime("+2 days"));?></td>
+                            <td><?php echo date('d/m/Y', strtotime("+2 days")); ?></td>
                             <td>@mdo</td>
                             <td>
                                 <ul class="list-inline">
